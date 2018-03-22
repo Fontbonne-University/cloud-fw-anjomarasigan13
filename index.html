@@ -25,10 +25,10 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Speakers</a>
+                <a class="nav-link" href="#speakers">Speakers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
+                <a class="nav-link" href="#schedule">Schedule</a>
             </li>
         </ul>
     </div>
@@ -38,6 +38,16 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 </nav>
+<div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container text-sm-center pt-5">
+        <h1 class="display-2">InfoSec Conference</h1>
+        <p class="lead">A One-day Conference About All Things Cloud!</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a type="button" class="btn btn-primary btn-lg" href="#speakers">Speakers</a>
+            <a type="button" class="btn btn-secondary btn-lg" href="#schedule">Schedule</a>
+        </div>
+    </div>
+</div>
 
 <div class="container pt-4">
     <div class="row">
@@ -68,13 +78,18 @@
     </div>
 
     <!--speakers-->
-    <h1 class="display-4 text-center text-muted">Speakers</h1>
+    <h1 id="speakers" class="display-4 text-center text-muted">Speakers</h1>
     [speaker bios go here]
     <!--schedule-->
-    <h1 class="display-4 text-center text-muted">Schedule</h1>
+    <h1 id="schedule" class="display-4 text-center text-muted">Schedule</h1>
     [schedule goes here]
+    <!-- callout button -->
+    <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Don't miss out, register now!</button>
+
 
 </div>
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
